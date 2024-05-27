@@ -1,0 +1,13 @@
+1. Get Route: ‘/all-categories’
+This shall return list of all ‘Book Categories’ sorted by number of books available under each category.
+
+2. Get Route: ‘/trending-books’
+This shall return details of top 5 books, which has maximum number of borrows in last 10 days.
+
+3. Get Route: ‘/delayed-return’
+This shall return top 5 books which has maximum delayed return.
+
+Create the following Collections:
+1. User: ID, Name
+2. Book: ID, Title, ISBN, Category
+3. Borrow: ID, UserID, BookID, BorrowDate, ReturnDate
